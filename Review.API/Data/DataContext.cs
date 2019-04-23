@@ -9,6 +9,7 @@ namespace Review.API.Data
         public DataContext(DbContextOptions<DataContext> options) : base (options) {}
 
         public DbSet<Dog> Dogs { get; set; }
+        public DbSet<User>  Users { get; set; }
         
     }
 }
